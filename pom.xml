@@ -15,6 +15,11 @@
 			<organizationUrl>http://sag.art.uniroma2.it/</organizationUrl>
 		</developer>
 	</developers>
+	<scm>
+		<url>https://github.com/kamei86i/maven-jenkins-github-test</url>
+		<connection>scm:git:git://github.com/kamei86i/maven-jenkins-github-test.git</connection>
+		<developerConnection>scm:git:git@github.com:kamei86i/maven-jenkins-github-test.git</developerConnection>
+	</scm>
 	<distributionManagement>
 		<repository>
 			<id>sag_repo_release</id>
