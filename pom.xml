@@ -17,8 +17,8 @@
 	</developers>
 	<scm>
 		<url>https://github.com/kamei86i/maven-jenkins-github-test</url>
-		<connection>scm:git:git://github.com/kamei86i/maven-jenkins-github-test.git</connection>
-		<developerConnection>scm:git:git@github.com:kamei86i/maven-jenkins-github-test.git</developerConnection>
+		<connection>scm:git:https://github.com/kamei86i/maven-jenkins-github-test.git</connection>
+		<developerConnection>scm:git:https://github.com/kamei86i/maven-jenkins-github-test.git</developerConnection>
 	</scm>
 	<distributionManagement>
 		<repository>
