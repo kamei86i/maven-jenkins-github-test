@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>it.uniroma2.sag</groupId>
 	<artifactId>maven-jenkins-github-test</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<name>maven-jenkins-github-test</name>
 	<developers>
 		<developer>
@@ -19,7 +18,8 @@
 		<url>https://github.com/kamei86i/maven-jenkins-github-test</url>
 		<connection>scm:git:https://github.com/kamei86i/maven-jenkins-github-test.git</connection>
 		<developerConnection>scm:git:https://github.com/kamei86i/maven-jenkins-github-test.git</developerConnection>
-	</scm>
+	  <tag>version1.0.1</tag>
+  </scm>
 	<distributionManagement>
 		<repository>
 			<id>sag_repo_release</id>
