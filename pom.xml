@@ -78,7 +78,7 @@
 						<versionTagPrefix>version</versionTagPrefix>
 					</flowInitContext>
 					<pushReleases>true</pushReleases>
-					<username>${scmUser}</username>
+					<username>${scmUsername}</username>
 					<password>${scmPassword}</password>
 				</configuration>
 			</plugin>
