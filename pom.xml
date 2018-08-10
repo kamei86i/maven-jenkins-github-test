@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>it.uniroma2.sag</groupId>
 	<artifactId>maven-jenkins-github-test</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.8</version>
 	<name>maven-jenkins-github-test</name>
 	<developers>
 		<developer>
