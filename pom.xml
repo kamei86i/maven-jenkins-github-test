@@ -78,8 +78,8 @@
 						<versionTagPrefix>version</versionTagPrefix>
 					</flowInitContext>
 					<pushReleases>true</pushReleases>
-					<username>${kelp.git.user}</username>
-					<password>${kelp.git.password}</password>
+					<username>${scmUser}</username>
+					<password>${scmPassword}</password>
 				</configuration>
 			</plugin>
 		</plugins>
