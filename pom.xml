@@ -80,6 +80,8 @@
 					<pushReleases>true</pushReleases>
 					<username>${kelp.git.user}</username>
 					<password>${kelp.git.password}</password>
+					<developmentVersion>${developmentVersion}</developmentVersion>
+					<releaseVersion>${releaseVersion}</releaseVersion>
 				</configuration>
 			</plugin>
 		</plugins>
