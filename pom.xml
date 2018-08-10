@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>it.uniroma2.sag</groupId>
 	<artifactId>maven-jenkins-github-test</artifactId>
-	<version>1.0.9</version>
+	<version>1.1.1</version>
 	<name>maven-jenkins-github-test</name>
 	<developers>
 		<developer>
@@ -80,6 +80,8 @@
 					<pushReleases>true</pushReleases>
 					<username>${kelp.git.user}</username>
 					<password>${kelp.git.password}</password>
+					<developmentVersion>${developmentVersion}</developmentVersion>
+					<releaseVersion>${releaseVersion}</releaseVersion>
 				</configuration>
 			</plugin>
 		</plugins>
