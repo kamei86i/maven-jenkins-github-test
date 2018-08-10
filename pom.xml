@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>it.uniroma2.sag</groupId>
 	<artifactId>maven-jenkins-github-test</artifactId>
-	<version>1.0.10-SNAPSHOT</version>
+	<version>1.1.0-SNAPSHOT</version>
 	<name>maven-jenkins-github-test</name>
 	<developers>
 		<developer>
@@ -78,8 +78,8 @@
 						<versionTagPrefix>version</versionTagPrefix>
 					</flowInitContext>
 					<pushReleases>true</pushReleases>
-					<username>${scmUsername}</username>
-					<password>${scmPassword}</password>
+					<username>${kelp.git.user}</username>
+					<password>${kelp.git.password}</password>
 				</configuration>
 			</plugin>
 		</plugins>
